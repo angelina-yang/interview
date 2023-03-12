@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "interview"
+  site-url: "https://grey1227.github.io/interview"
+  description: "interview_qa"
+  repo-branch: main
+  repo-url: "https://github.com/grey1227/interview"
