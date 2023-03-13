@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "interview",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "interview",
+    "section": "Install",
+    "text": "Install\npip install interview"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "interview",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "Core ML Competency",
+    "section": "",
+    "text": "When fine-tuning BERT (Bidirectional Encoder Representations from Transformers) for your use case, what can go wrong? Or what should you pay attention to?\n\n\n\n\nSource: Illustration of the pre-training / fine-tuning approach. 3 different downstream NLP tasks, MNLI, NER, and SQuAD, are all solved with the same pre-trained language model, by fine-tuning on the specific task. Image credit: Devlin et al 2019."
+  },
+  {
+    "objectID": "core.html#answer",
+    "href": "core.html#answer",
+    "title": "Core ML Competency",
+    "section": "Answer",
+    "text": "Answer\n\nFine-tuning a pre-trained language model such as BERT for a specific use case can be a complex process that requires careful consideration and testing to ensure optimal results. Here are some potential issues that can arise during fine-tuning:\n\n\nNot using WordPiece tokenizer (You need to use the same tokenizer as the one that was used to train the original model.)\nWhile fine-tuning, some runs produce degenerate results (This could be task-specific and hyper-parameter tuning is really important.)\nTraining new models instead of using pre-trained ones (Too expensive!)\n\nOther common issues could be overfitting, bad data quality, cross language training etc. Dr. Rachael Tatman from RASA specifically pointed out the above three and I think very much worth noting.\n\nLet’s check out how she explains it!\n\n\n\n\nGood Reads on This Topic\nMedium blog. What exactly happens when we fine-tune BERT? Tensorflow code for fine-tuning BERT."
+  }
+]
